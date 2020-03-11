@@ -82,3 +82,23 @@ section.cat-card>.details {
     grid-template-columns: 50% 50%;
   }
 }
+
+@media (min-width:1050px) {
+  * {
+    border: 1px solid purple;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media (min-width:1400px) {
+  * {
+    border: 1px solid burlywood;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
